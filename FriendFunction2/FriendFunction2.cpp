@@ -22,3 +22,10 @@ void manusia::showNilaiPelajar(pelajar& x)
     std::cout << x.nilai;
 }
 
+int main()
+{
+    manusia Budi;
+    pelajar pBudi;
+    Budi.showNilaiPelajar(pBudi);
+    return 0;
+}
