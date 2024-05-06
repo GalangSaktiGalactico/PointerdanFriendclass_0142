@@ -25,6 +25,12 @@ public:
 
 };
 
+void siswa::displayA11(orang& a)
+{
+	cout << id << endl
+		<< a.nama;
+}
+
 
 
 
