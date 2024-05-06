@@ -31,6 +31,12 @@ void siswa::displayA11(orang& a)
 		<< a.nama;
 }
 
+void orang::setNama(string pNama)
+{
+	nama = pNama;
+}
+
+
 
 
 
